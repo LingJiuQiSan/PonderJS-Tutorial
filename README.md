@@ -6,13 +6,13 @@
 
 2、本教程难免会有有错误写出，如果发现错误，你可以通过 Issues 提出该错误处或 Pull requests 修改改错误， 无意义的说“你这个教程有错误”而不指出错哪里的话将被无视。
 
-## 本教程使用的我的世界版本及模组版本（不包含前置）：
+## 本教程使用的我的世界版本及模组版本（不包含前置）
 
 Minecraft: 1.19.2
 
 Ponder for KubeJS:  Forge-1.19.2-1.2.0
 
-## 必要的准备：
+## 必要的准备
 
 [Minecraft](https://www.minecraft.net/)
 
@@ -22,9 +22,14 @@ Ponder for KubeJS:  Forge-1.19.2-1.2.0
 
 一些 [Kubejs](https://www.curseforge.com/minecraft/mc-mods/kubejs) 基础
 
-## 建议的准备：
+## 建议的准备
 
 拥有良好的网络环境（本教程使用 [imgur图床](https://imgur.com/) 作为图片来源，请确保您能够访问此网站）
 
 [Probejs 我的世界模组](https://www.curseforge.com/minecraft/mc-mods/probejs) 与 [Probejs vscode 插件](https://marketplace.visualstudio.com/items?itemName=Prunoideae.probejs)（它能为你在vscode中补全代码）
 
+## github地址
+
+[仓库](https://github.com/LingJiuQiSan/PonderJS-Tutorial)
+
+[issue](https://github.com/LingJiuQiSan/PonderJS-Tutorial/issues)
