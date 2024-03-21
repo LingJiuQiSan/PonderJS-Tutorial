@@ -81,3 +81,15 @@ scene.world.setBlocks([1, 1, 1, 2, 2, 2], "minecraft:cobblestone", true);
 ```
 
 此处第一个参数为方块位置/区域 具体写法请参阅 [类型语法](./Type_Syntax.md) ；第二个参数为所放置的方块id；第三个参数为是否生成方块粒子（false为不生成，true为生成）。
+
+### 替换方块
+
+```javascript
+scene.world.replaceBlocks([3, 1, 0, 4, 1, 4], "minecraft:cobblestone", true);
+```
+
+替换方块与放置方块最大的区别为不会替换空气方块，而放置方块会在空气处也放置。
+
+### 修改方块
+
+`// TODO` 

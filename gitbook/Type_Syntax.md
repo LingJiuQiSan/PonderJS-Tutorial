@@ -16,4 +16,4 @@ KubeJS 和 PonderJS 提供了一种简单的语法来将位置或向量传递给
 
 * `[blockPos1, blockPos2]` 
 
-如果您不喜欢简写语法，你可以在你的思索场景中使用 `util` 提供的函数，关于util提供的函数，请参阅 `//TODO` 。不过在此处util教程施工完成前，你可以查阅 [官方文档](https://github.com/AlmostReliable/ponderjs/wiki/5.-Utils) 。
+如果您不喜欢简写语法，你可以在你的思索场景中使用 `util` 提供的函数，关于util提供的函数，请参阅 `// TODO` 。不过在此处util教程施工完成前，你可以查阅 [官方文档](https://github.com/AlmostReliable/ponderjs/wiki/5.-Utils) 。
