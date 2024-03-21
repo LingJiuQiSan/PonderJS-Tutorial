@@ -2,7 +2,7 @@
 
 ## 开始之前
 
-在开始之前，请确保你已经安装位于 [介绍的必要的准备的东西](gitbook/#bi-yao-de-zhun-bei) 
+在开始之前，请确保你已经安装位于 [介绍的必要的准备的东西](https://lingjiuqisan.gitbook.io/ponder-for-kubejs-tutorial#bi-yao-de-zhun-bei) 
 
 所有属于 PonderJS 的脚本都应该位于 `client_scripts` 文件夹内。如果你不知道该文件在哪，请查阅 [KubeJS wiki](https://kubejs.com/wiki/tutorials/getting-started)
 
