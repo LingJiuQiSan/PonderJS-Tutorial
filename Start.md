@@ -51,4 +51,33 @@ Ponder.registry((event) => {
 })
 ```
 
-注意：可以为一个物品创建多个场景，只需要另外进行一次 `event.create("id")` 即可，但是 `scene_id` 不应相同。
+### 注意
+
+1、可以为一个物品创建多个场景，只需要另外进行一次 `event.create("id")` 即可，但是 `scene_id` 不应相同。
+
+2、nbt文件可以使用机械动力的 [蓝图与笔](https://www.mcmod.cn/item/347848.html) 或原版的 [结构方块](https://www.mcmod.cn/item/35469.html) 生成。
+
+## 显示初始结构
+
+```javascript
+scene.showStructure(n)
+```
+
+以上这段代码将显示读取的nbt中y值为 0 至 n 的部分。你也可以不传入参数，这将会获取地板的大小并乘二作为n传入以上函数（相关代码段： https://github.com/AlmostReliable/ponderjs/blob/36486f72234540b2ac54ca266e2698471bbad97b/src/main/java/com/almostreliable/ponderjs/api/ExtendedSceneBuilder.java#L77 ）。
+
+当你使用机械动力自带的地板时，你可以使用 `scene.showBasePlate()` 来显示地板。该方法的效果等效于 `scene.showStructure(0)` 。
+
+## 放置、替换和修改方块
+
+### 开始之前
+
+你可以打开机械动力的思索的编辑模式来查看/推断所放置、替换和修改方块的位置。打开方法请见 [官方文档](https://github.com/AlmostReliable/ponderjs/wiki/6.-Coordinates) 。
+
+### 放置方块
+
+```javascript
+scene.world.setBlock([1, 1, 1], "minecraft:stone", false);
+scene.world.setBlocks([1, 1, 1, 2, 2, 2], "minecraft:cobblestone", true);
+```
+
+此处第一个参数为方块位置/区域 具体写法请参阅 [类型语法](./Type_Syntax.md) ；第二个参数为所放置的方块id；第三个参数为是否生成方块粒子（false为不生成，true为生成）。
